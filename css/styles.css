@@ -7,6 +7,10 @@ body {
 .letter-body{
   text-align: left;
 }
+
+.container-fluid{
+background-color:#11999E;
+}
 .navbar {
 height: 50px;
 }
@@ -85,6 +89,23 @@ margin: 100px auto;
   background-color: #d0e8f2;
   position: relative;
   padding-top: 100px;
+  text-align: center;
+
+}
+.saying{
+  left: 1000px;
+  width: 300px;
+  height: 400px;
+  word-wrap: break-word;
+  position: absolute;
+  text-align:left;
+
+
+}
+
+.saying-msg{
+  font-size: 1.7rem;
+
 }
 
 .middle-container{
@@ -151,6 +172,10 @@ border-radius: 100%;
 .computer{
   width: 700px;
 }
+.col-computer{
+  /* padding-left: 300px; */
+
+}
 
 .footer-link{
   color:#11999E;
@@ -168,8 +193,11 @@ border-radius: 100%;
 }
 
 .CoverLetter{
+
   width: 700px;
   margin-top: 100px;
+  word-wrap: break-word;
+  padding-left: 100px;
 }
 
 .btn {
@@ -197,4 +225,17 @@ border-radius: 100%;
   background-image: -o-linear-gradient(top, #3cfcb6, #5dab7f);
   background-image: linear-gradient(to bottom, #3cfcb6, #5dab7f);
   text-decoration: none;
+}
+
+@media (max-width:1036px) {
+  #top-cont{
+    text-align: center;
+  }
+  .saying {
+    position: static;
+  }
+  .computer{
+    width: 400px;
+    position: static;
+  }
 }
