@@ -74,12 +74,22 @@ h2 {
   color: #53a9db;
   font-weight: normal;
   padding-bottom: 10px;
+  font-weight: bold;
 
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #53a9db;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #53a9db;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 hr{
