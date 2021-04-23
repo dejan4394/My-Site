@@ -128,17 +128,26 @@ border-radius: 100%;
   width:50%;
   text-align: left;
 
+
+
+}
+
+.row{
+  justify-content: center;
+
+}
+
+.card{
+  width: 18rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
-.dicee-icon{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 100%;
-}
 
-.drums-icon{
+.left-icon{
   margin-right: 30px;
   width: 25%;
   float: right;
@@ -148,7 +157,7 @@ border-radius: 100%;
 
 
 
-.simon-game{
+.right-icon{
   margin-right: 30px;
   width: 25%;
   float: left;
