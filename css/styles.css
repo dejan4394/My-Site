@@ -129,7 +129,8 @@ margin: 100px auto;
 .middle-container{
   margin: 100px 0;
 }
-.Profilna{
+.profilna{
+  width: 250px;
 border-radius: 100%;
 }
 
@@ -154,6 +155,11 @@ border-radius: 100%;
   margin-left: 20px;
   margin-right: 20px;
   box-shadow: 5px 5px 5px 0 #53a9db ;
+}
+
+.card-body{
+display: grid;
+align-content: flex-end;
 }
 
 
